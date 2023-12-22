@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Drum Kit</title>
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
@@ -11,24 +12,39 @@
 
 <body class="bg-primary text-light">
 
-  <div class="container text-center mt-5">
+  <div class="container text-center my-5">
     <h1 id="title">Drum Kit</h1>
     <h2>Feel free to use the keyboard</h2>
-    <div class="row justify-content-center">
-      <button class="w drum col-md-2 col-4">w</button>
-      <button class="a drum col-md-2 col-4">a</button>
-      <button class="s drum col-md-2 col-4">s</button>
-      <button class="d drum col-md-2 col-4">d</button>
-      <button class="j drum col-md-2 col-4">j</button>
-      <button class="k drum col-md-2 col-4">k</button>
-      <button class="l drum col-md-2 col-4">l</button>
+    <div class="row">
+      <div class="col-6 col-md-4">
+        <button class="w drum btn btn-light btn-lg btn-block">w</button>
+      </div>
+      <div class="col-6 col-md-4">
+        <button class="a drum btn btn-light btn-lg btn-block">a</button>
+      </div>
+      <div class="col-6 col-md-4">
+        <button class="s drum btn btn-light btn-lg btn-block">s</button>
+      </div>
+      <div class="col-6 col-md-4">
+        <button class="d drum btn btn-light btn-lg btn-block">d</button>
+      </div>
+      <div class="col-6 col-md-4">
+        <button class="j drum btn btn-light btn-lg btn-block">j</button>
+      </div>
+      <div class="col-6 col-md-4">
+        <button class="k drum btn btn-light btn-lg btn-block">k</button>
+      </div>
+      <div class="col-6 col-md-4">
+        <button class="l drum btn btn-light btn-lg btn-block">l</button>
+      </div>
     </div>
   </div>
 
-  <footer class="mt-5 text-center">
+  <footer class="text-center pb-5">
     Copyright easvar
   </footer>
 
+  <!-- Bootstrap JavaScript is not included -->
 
   <script src="./index.js"></script>
 </body>
